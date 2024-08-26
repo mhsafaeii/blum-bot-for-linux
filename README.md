@@ -1,35 +1,37 @@
 # Blum Bot
 
-Automate the Blum Crypto game on your Telegram bot with Blum Bot! This Python tool allows the game to run autonomously, utilizing the pynput and keyboard modules. Designed for Python 3.11.6, it's easy to set up and get started.
+Automate the Blum Crypto game on your Telegram bot with Blum Bot! This Python tool allows the game to run autonomously, utilizing the pynput and keyboard modules. Designed specifically for Linux systems, it's easy to set up and get started.
 
 ## Features
 
 - Automates the Blum Crypto game on Telegram.
-- Uses the `termcolor`,`pynput`, `pyautogui`, `pygetwindow` and `keyboard` modules for interaction.
-- Designed for Python 3.11.6.
+- Uses the `termcolor`, `pynput`, `pyautogui`, `pygetwindow`, and `keyboard` modules for interaction.
+- Designed for Linux systems with Python 3.11.6.
 
 ## Requirements
 
+- Linux operating system
 - Python 3.11.6 (recommended)
-- `termcolor` module 
+- `termcolor` module
 - `pyautogui` module
 - `pygetwindow` module
 - `pynput` module
 - `keyboard` module
+- `wmctrl` (installed via your package manager)
 
 ## Installation
 
 ### Prerequisites
 
-Make sure you have Python 3.11.6 installed on your system. You can download it from the official [Python website](https://www.python.org/downloads/release/python-3116/).
+Ensure you have Python 3.11.6 installed on your system. You can download it from the official [Python website](https://www.python.org/downloads/release/python-3116/).
 
 ### Steps
 
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/DarkSkull777/blum-bot.git
-    cd blum-bot
+    git clone https://github.com/mhsafaeii/blum-bot-for-linux.git
+    cd blum-bot-for-linux
     ```
 
 2. **Install the required modules**
@@ -38,32 +40,33 @@ Make sure you have Python 3.11.6 installed on your system. You can download it f
 
     ```sh
     pip install termcolor
-    pip install colorama
     pip install pynput
     pip install keyboard
     pip install pyautogui
     pip install pygetwindow
     ```
 
-3. **Run the script**
+3. **Install `wmctrl`**
+
+    `wmctrl` is required to interact with the windows on your Linux system. Install it using your package manager:
+
+    ```sh
+    sudo apt-get install wmctrl
+    ```
+
+4. **Run the script**
 
     Execute the `blumbot.py` script:
 
     ```sh
     python blumbot.py
     ```
-## Download
-
-If you prefer a standalone executable version of Blum Bot that does not require installing Python or any dependencies, you can download `blumbot.exe` from the below:
-
-<a href="https://t.me/bravexploiter/10441">
-    <img src="https://raw.githubusercontent.com/DarkSkull777/blum-bot/main/images/images%20(4)-fotor-bg-remover-202406222099-picsay.png" alt="Download" width="165">
-</a>
-
 
 ## Usage
 
-Once the script is running, it will automate the Blum Crypto game on your Telegram bot. Ensure your Telegram bot is properly set up and configured to work with the Blum Crypto game.
+Once the script is running, it will automate the Blum Crypto game on your Telegram bot. Make sure the Telegram Desktop application is open and that you are logged into the Blum bot.
+
+- Press **'K'** on your keyboard to pause and resume the bot.
 
 ## Contributing
 
@@ -76,7 +79,7 @@ Contributions are welcome! Here's how you can contribute:
 2. **Clone your forked repository**
 
     ```sh
-    git clone https://github.com/DarkSkull777/blum-bot.git
+    git clone https://github.com/YOUR_USERNAME/blum-bot.git
     cd blum-bot
     ```
 
@@ -94,13 +97,13 @@ Contributions are welcome! Here's how you can contribute:
 
     ```sh
     git add .
-    git commit -m "Note"
+    git commit -m "Added new feature"
     ```
 
 6. **Push to your branch**
 
     ```sh
-    git push origin your-new-feature
+    git push origin my-new-feature
     ```
 
 7. **Create a Pull Request**
@@ -117,11 +120,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or support, please open an issue or contact the repository owner on [<span style="font-size:1.5em;">Telegram</span>](https://t.me/XSkull7).
+For any questions or support, please open an issue or contact the repository owner on [Telegram](https://t.me/XSkull7).
 
 ---
 
-**Enjoying!**
+**Enjoy using Blum Bot!**
 
 ---
 
@@ -131,10 +134,9 @@ For any questions or support, please open an issue or contact the repository own
 1. [Features](#features)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
-4. [Download](#Download)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
 </details>
